@@ -73,7 +73,7 @@ class Program
         Console.WriteLine("Ingrese el id de entrada para cambiar su tipo de entrada: ");
         idEnt = int.Parse(Console.ReadLine());
         Cliente ClienteBuscado = Tiquetera.BuscarCliente(idEnt);
-        if (ClienteBuscado.Nombre == string.Empty)
+        if (ClienteBuscado == null)
         {
             Console.WriteLine("No esta");
         }
