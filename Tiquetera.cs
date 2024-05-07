@@ -35,6 +35,10 @@ public static class Tiquetera
                 Console.WriteLine($"Se cambio el tipo de entrada a {cambiarEntradaa} y se compraron {cantidad}");
                 aceptar = true;
             }
+            else
+            {
+                Console.WriteLine($"No se logró hacer el cambio");
+            }
         }
         
         return aceptar;
@@ -42,7 +46,7 @@ public static class Tiquetera
     public static List<string> EstadisticasTicketera()
     {
         List<string> lista = new List<string>();
-        int CantidadDeClientesInscriptos = dicClientes.Count;
+        int CantidadDeClientesInscriptos = dicClientes.Count();
         
         Console.WriteLine("El total de personas inscriptas son: " + CantidadDeClientesInscriptos);
         if (CantidadDeClientesInscriptos > 0)

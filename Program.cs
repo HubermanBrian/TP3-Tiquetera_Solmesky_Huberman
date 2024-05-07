@@ -46,7 +46,12 @@ class Program
     }
     static void opcion2()
     {
-        Tiquetera.EstadisticasTicketera();
+        List<string> listaRespuesta = new List<string>();
+        listaRespuesta = Tiquetera.EstadisticasTicketera();
+        foreach (string str in listaRespuesta)
+        {
+            Console.WriteLine(str);
+        }
     }
     static void opcion3()
     {
@@ -54,7 +59,7 @@ class Program
         Console.WriteLine("Ingrese el id de entrada que quiera buscar:  ");
         idEntrada= int.Parse(Console.ReadLine());
         Cliente ClienteBuscado = Tiquetera.BuscarCliente(idEntrada);
-        if (ClienteBuscado.Nombre == string.Empty)
+        if (ClienteBuscado == null)
         {
             Console.WriteLine("No esta");
         }

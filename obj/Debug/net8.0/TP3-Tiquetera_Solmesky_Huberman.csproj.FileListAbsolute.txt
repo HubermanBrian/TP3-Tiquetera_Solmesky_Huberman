@@ -12,3 +12,4 @@ C:\Brian\ORT 2024\programacion\TP3-Tiquetera_Solmesky_Huberman\obj\Debug\net8.0\
 C:\Brian\ORT 2024\programacion\TP3-Tiquetera_Solmesky_Huberman\obj\Debug\net8.0\TP3-Tiquetera_Solmesky_Huberman.pdb
 C:\Brian\ORT 2024\programacion\TP3-Tiquetera_Solmesky_Huberman\obj\Debug\net8.0\TP3-Tiquetera_Solmesky_Huberman.genruntimeconfig.cache
 C:\Brian\ORT 2024\programacion\TP3-Tiquetera_Solmesky_Huberman\obj\Debug\net8.0\ref\TP3-Tiquetera_Solmesky_Huberman.dll
+C:\Brian\ORT 2024\programacion\TP3-Tiquetera_Solmesky_Huberman\obj\Debug\net8.0\TP3-Tiquetera_Solmesky_Huberman.sourcelink.json
