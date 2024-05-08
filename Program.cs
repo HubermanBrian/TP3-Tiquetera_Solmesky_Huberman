@@ -33,13 +33,11 @@ class Program
     }
     static void opcion1()
     {
-        const int OPCION1 =45000, OPCION2 =60000,OPCION3 =30000,OPCION4 =100000;
         int DNI = Funciones.IngresarInt("Ingrese su dni: ");
         string Apellido = Funciones.IngresarString("Ingrese su apellido: ");
         string Nombre = Funciones.IngresarString("Ingrese su nombre: ");
         DateTime FechaInscripcion = Funciones.IngresarFecha("Ingrese su fecha de inscripcion:");
         int TipoEntrada = Funciones.ValidarTipoDeEntrada("Ingrese el tipo de entrada: ");
-        int precioEntrada = Funciones.TipoEntrada(OPCION1, OPCION2, OPCION3, OPCION4, TipoEntrada);
         int Cantidad = Funciones.IngresarInt("Ingrese la cantidad de entradas: ");
         Cliente nuevoCliente = new Cliente (DNI, Apellido , Nombre , FechaInscripcion ,TipoEntrada,Cantidad);
         Tiquetera.AgregarCliente(nuevoCliente);
@@ -69,7 +67,8 @@ class Program
     }
     static void opcion4()
     {
-        int idEnt, cambiarEntrada;
+        const int OPCION1 =45000, OPCION2 =60000,OPCION3 =30000,OPCION4 =100000;
+        int idEnt, cambiarEntrada, precioEntrada,precioCambio;
         Console.WriteLine("Ingrese el id de entrada para cambiar su tipo de entrada: ");
         idEnt = int.Parse(Console.ReadLine());
         Cliente ClienteBuscado = Tiquetera.BuscarCliente(idEnt);
@@ -79,11 +78,11 @@ class Program
         }
         else
         {
-            Console.WriteLine("Ingrese a que tipo de entrada desea cambiar: ");
-            cambiarEntrada = int.Parse(Console.ReadLine());
+            precioEntrada = ClienteBuscado.TipoEntrada * ClienteBuscado.Cantidad;
+            cambiarEntrada = Funciones.ValidarTipoDeEntrada("Ingrese a que tipo de entrada desea cambiar: ");
             int Cantidad = Funciones.IngresarInt("Ingrese la cantidad de entradas: ");
-            Tiquetera.CambiarEntrada(idEnt, cambiarEntrada, Cantidad);
-        }
-        
+            precioCambio = Funciones.TipoEntrada(OPCION1,OPCION2,OPCION3,OPCION4, cambiarEntrada);
+            Tiquetera.CambiarEntrada(idEnt, cambiarEntrada, Cantidad, precioEntrada, precioCambio);
+        }  
     }
 }

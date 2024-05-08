@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TP3-Tiquetera_Solmesky_Huberman")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+78f2d3ea7d6da0f101db5983c1195f2c9ed33a94")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e996f127f459837d54f7ddeaedfca740631de85")]
 [assembly: System.Reflection.AssemblyProductAttribute("TP3-Tiquetera_Solmesky_Huberman")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TP3-Tiquetera_Solmesky_Huberman")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

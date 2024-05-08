@@ -23,12 +23,12 @@ public static class Tiquetera
 
         return clienteVacio;
     }
-    public static bool CambiarEntrada(int idEnt, int cambiarEntradaa, int cantidad)
+    public static bool CambiarEntrada(int idEnt, int cambiarEntradaa, int cantidad, double precioEntrada, double cambioPrecio )
     {        
         bool aceptar = false;
         if(dicClientes.ContainsKey(idEnt))
         {
-            if(cambiarEntradaa * cantidad > dicClientes[idEnt].TipoEntrada *dicClientes[idEnt].Cantidad)
+            if(cambioPrecio * cantidad > precioEntrada *dicClientes[idEnt].Cantidad)
             {
                 dicClientes[idEnt].TipoEntrada = cambiarEntradaa;
                 dicClientes[idEnt].Cantidad = cantidad; 
