@@ -61,19 +61,19 @@ public static class Tiquetera
                 {
                     case 1:
                         cant1 += a.Cantidad;
-                        plata1 += a.Cantidad * 15000;
+                        plata1 += a.Cantidad * 45000;
                         break;
                     case 2:
                         cant2 += a.Cantidad;
-                        plata2 += a.Cantidad * 30000;
+                        plata2 += a.Cantidad * 60000;
                         break;
                     case 3:
                         cant3 += a.Cantidad;
-                        plata3 += a.Cantidad * 10000;
+                        plata3 += a.Cantidad * 30000;
                         break;
                     case 4:
                         cant4 += a.Cantidad;
-                        plata4 += a.Cantidad * 40000;
+                        plata4 += a.Cantidad * 100000;
                         break;
                 }
             }

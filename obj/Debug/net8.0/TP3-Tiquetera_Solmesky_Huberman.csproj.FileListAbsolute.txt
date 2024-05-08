@@ -13,3 +13,18 @@ C:\Brian\ORT 2024\programacion\TP3-Tiquetera_Solmesky_Huberman\obj\Debug\net8.0\
 C:\Brian\ORT 2024\programacion\TP3-Tiquetera_Solmesky_Huberman\obj\Debug\net8.0\TP3-Tiquetera_Solmesky_Huberman.genruntimeconfig.cache
 C:\Brian\ORT 2024\programacion\TP3-Tiquetera_Solmesky_Huberman\obj\Debug\net8.0\ref\TP3-Tiquetera_Solmesky_Huberman.dll
 C:\Brian\ORT 2024\programacion\TP3-Tiquetera_Solmesky_Huberman\obj\Debug\net8.0\TP3-Tiquetera_Solmesky_Huberman.sourcelink.json
+Z:\prog2024\TP3-Tiquetera_Solmesky_Huberman\bin\Debug\net8.0\TP3-Tiquetera_Solmesky_Huberman.exe
+Z:\prog2024\TP3-Tiquetera_Solmesky_Huberman\bin\Debug\net8.0\TP3-Tiquetera_Solmesky_Huberman.deps.json
+Z:\prog2024\TP3-Tiquetera_Solmesky_Huberman\bin\Debug\net8.0\TP3-Tiquetera_Solmesky_Huberman.runtimeconfig.json
+Z:\prog2024\TP3-Tiquetera_Solmesky_Huberman\bin\Debug\net8.0\TP3-Tiquetera_Solmesky_Huberman.dll
+Z:\prog2024\TP3-Tiquetera_Solmesky_Huberman\bin\Debug\net8.0\TP3-Tiquetera_Solmesky_Huberman.pdb
+Z:\prog2024\TP3-Tiquetera_Solmesky_Huberman\obj\Debug\net8.0\TP3-Tiquetera_Solmesky_Huberman.GeneratedMSBuildEditorConfig.editorconfig
+Z:\prog2024\TP3-Tiquetera_Solmesky_Huberman\obj\Debug\net8.0\TP3-Tiquetera_Solmesky_Huberman.AssemblyInfoInputs.cache
+Z:\prog2024\TP3-Tiquetera_Solmesky_Huberman\obj\Debug\net8.0\TP3-Tiquetera_Solmesky_Huberman.AssemblyInfo.cs
+Z:\prog2024\TP3-Tiquetera_Solmesky_Huberman\obj\Debug\net8.0\TP3-Tiquetera_Solmesky_Huberman.csproj.CoreCompileInputs.cache
+Z:\prog2024\TP3-Tiquetera_Solmesky_Huberman\obj\Debug\net8.0\TP3-Tiquetera_Solmesky_Huberman.sourcelink.json
+Z:\prog2024\TP3-Tiquetera_Solmesky_Huberman\obj\Debug\net8.0\TP3-Tiquetera_Solmesky_Huberman.dll
+Z:\prog2024\TP3-Tiquetera_Solmesky_Huberman\obj\Debug\net8.0\refint\TP3-Tiquetera_Solmesky_Huberman.dll
+Z:\prog2024\TP3-Tiquetera_Solmesky_Huberman\obj\Debug\net8.0\TP3-Tiquetera_Solmesky_Huberman.pdb
+Z:\prog2024\TP3-Tiquetera_Solmesky_Huberman\obj\Debug\net8.0\TP3-Tiquetera_Solmesky_Huberman.genruntimeconfig.cache
+Z:\prog2024\TP3-Tiquetera_Solmesky_Huberman\obj\Debug\net8.0\ref\TP3-Tiquetera_Solmesky_Huberman.dll
