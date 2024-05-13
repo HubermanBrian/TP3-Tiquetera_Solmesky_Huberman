@@ -44,11 +44,18 @@ class Program
     }
     static void opcion2()
     {
-        List<string> listaRespuesta = new List<string>();
-        listaRespuesta = Tiquetera.EstadisticasTicketera();
-        foreach (string str in listaRespuesta)
+        List<double> lista = new List<double>();
+        lista = Tiquetera.EstadisticasTicketera();
+        if(lista.Count>1)
         {
-            Console.WriteLine(str);
+            Console.WriteLine("el porcentaje de las entradas de tipo 1 es de: " + lista[5] + "%" + " y la recaudaciuon de plata de este tipo es de: " + lista[0]);
+            Console.WriteLine("el porcentaje de las entradas de tipo 2 es de: " + lista[6] + "%" + " y la recaudaciuon de plata de este tipo es de: " + lista[1]);
+            Console.WriteLine("el porcentaje de las entradas de tipo 3 es de: " + lista[7] + "%" + " y la recaudaciuon de plata de este tipo es de: " + lista[2]);
+            Console.WriteLine("el porcentaje de las entradas de tipo 4 es de: " + lista[8] + "%" + " y la recaudaciuon de plata de este tipo es de: " + lista[3]);
+            Console.WriteLine("la recaudacion total es: " + lista[4]);
+        }
+        else{
+            Console.WriteLine("Aún no se anotó nadie");
         }
     }
     static void opcion3()

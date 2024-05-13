@@ -43,9 +43,9 @@ public static class Tiquetera
         
         return aceptar;
     }
-    public static List<string> EstadisticasTicketera()
+    public static List<double> EstadisticasTicketera()
     {
-        List<string> lista = new List<string>();
+        List<double> lista = new List<double>();
         int CantidadDeClientesInscriptos = dicClientes.Count();
         
         Console.WriteLine("El total de personas inscriptas son: " + CantidadDeClientesInscriptos);
@@ -83,15 +83,15 @@ public static class Tiquetera
             double porcentaje4 = (cant4 * 100 / totalEntradas);
             int recaudacionTotal = plata1 + plata2 + plata3 + plata4;
 
-            lista.Add($"El porcentaje de las entradas de tipo 1 es de: {porcentaje1}% y la recaudación de plata de este tipo es de: {plata1}");
-            lista.Add($"El porcentaje de las entradas de tipo 2 es de: {porcentaje2}% y la recaudación de plata de este tipo es de: {plata2}");
-            lista.Add($"El porcentaje de las entradas de tipo 3 es de: {porcentaje3}% y la recaudación de plata de este tipo es de: {plata3}");
-            lista.Add($"El porcentaje de las entradas de tipo 4 es de: {porcentaje4}% y la recaudación de plata de este tipo es de: {plata4}");
-            lista.Add($"La recaudación total es: {recaudacionTotal}");
-        }
-        else
-        {
-            lista.Add("Aún no se anotó nadie");
+           lista.Add (plata1);
+           lista.Add (plata2);
+           lista.Add (plata3);
+           lista.Add (plata4);
+           lista.Add (recaudacionTotal);
+           lista.Add (porcentaje1 = (cant1*100/CantidadDeClientesInscriptos));
+           lista.Add (porcentaje2 = (cant2*100/CantidadDeClientesInscriptos));
+           lista.Add (porcentaje3 = (cant3*100/CantidadDeClientesInscriptos));
+           lista.Add (porcentaje4 = (cant4*100/CantidadDeClientesInscriptos));
         }
         return lista;
     }
