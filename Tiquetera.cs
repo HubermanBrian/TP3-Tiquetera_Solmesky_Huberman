@@ -88,10 +88,10 @@ public static class Tiquetera
            lista.Add (plata3);
            lista.Add (plata4);
            lista.Add (recaudacionTotal);
-           lista.Add (porcentaje1 = (cant1*100/CantidadDeClientesInscriptos));
-           lista.Add (porcentaje2 = (cant2*100/CantidadDeClientesInscriptos));
-           lista.Add (porcentaje3 = (cant3*100/CantidadDeClientesInscriptos));
-           lista.Add (porcentaje4 = (cant4*100/CantidadDeClientesInscriptos));
+           lista.Add (porcentaje1);
+           lista.Add (porcentaje2);
+           lista.Add (porcentaje3);
+           lista.Add (porcentaje4);
         }
         return lista;
     }
